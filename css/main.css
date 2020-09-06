@@ -1,0 +1,341 @@
+body{
+    background-color: gainsboro;
+}
+.home-page .main-post{
+    padding: 20px;
+    background-color: antiquewhite;
+    border: 5px solid #ADC4EA;
+    margin-bottom: 10px;
+}
+.home-page .main-post h3{
+    margin: 0 0 10px;
+    font-weight: bold;
+    color: #ADC4EA;
+    letter-spacing: -1px;
+}
+ 
+.home-page .main-post img{
+    display: block;
+    margin: 10px 0 10px;
+}
+.home-page .main-post i {
+    color: slateblue;
+}
+.home-page .main-post .post-content{
+    color: #888;
+    font-family: "Times New Roman", Times, serif;
+}
+.home-page .post-pagination a,
+.home-page .post-pagination span{
+    margin: 20px auto 30px;
+    width: 400px;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #888;
+    border-radius: 5px;
+
+}
+.home-page .post-pagination a:first-child,
+.home-page .post-pagination span:first-child{
+    margin-right:20px ;
+}
+.home-page .post-pagination span{
+    opacity: .5;
+    cursor: not-allowed;
+}
+.home-page .post-pagination .span-prev{
+    margin-right: 10px;
+}
+.home-page .post-pagination .span-next{
+    margin-left: 10px;
+}
+.home-page .post-pagination a:hover{
+    background-color: #C6CFE0;
+}
+.post-page .main-post{
+    position: relative;
+}
+.post-page .main-post .post-edit-link {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-bottom: 5px;
+    padding: 5px;
+    color: darkblue;
+    margin-left: 5px;
+    background-color:#F0F2F6;
+    border-radius: 3px;
+}
+.post-page .main-post{
+    position: relative;
+    padding: 20px;
+    background-color:#ADC4EA;
+    border: 1px solid black;
+    margin-top: 2px;
+}
+.post-page .post-pagination a:hover{
+    background-color: #C6CFE0;
+}
+.post-page .post-pagination a,
+.post-page .post-pagination span{
+    margin: 20px auto 30px;
+    width: 400px;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #F0F2F6;
+    border-radius: 5px;
+
+}
+.post-page .post-pagination a:first-child,
+.post-page .post-pagination span:first-child{
+    margin-right:20px ;
+}
+.post-page .post-pagination span{
+    opacity: .5;
+    cursor: not-allowed;
+}
+.post-page .post-pagination .span-prev{
+    margin-right: 10px;
+}
+.post-page .post-pagination .span-next{
+    margin-left: 10px;
+}
+.post-page .bypostauthor{
+    position: relative;
+}
+.post-page .bypostauthor:after{
+    position: absolute;
+    content: 'Author';
+    color: rgb(125, 14, 168);
+    right: 0;
+    font-size: 20px;
+    
+}
+.comments-list{
+    list-style: none;
+}
+.comments-list ul,
+.comments-list ol{
+    list-style: none;
+}
+.comments-list .comment .says{
+    display: none;
+}
+.comments-list .comment img{
+    padding: 2px;
+    border: 1px solid #7C97B0;
+}
+
+.comments-list .comment .comment-meta{
+    font-size: 10px;
+}
+
+
+.comments-list .comment p{
+    font-size: 20px;
+    color:#074CCA;    
+    
+}
+
+.comments-list .comment .comment-reply-link{
+    color:black;
+    text-decoration: unset;
+    cursor: pointer;
+    position: absolute;
+    
+    
+}
+.comment-respond label{
+    display: block ;
+}
+.comment-respond input[type='text'],
+.comment-respond textarea {
+    width: 500px;
+    height:20px ;
+    padding: 20px;
+    border: 1px solid #06f1d2;
+    border-radius: 50px;
+    max-width: 100%;
+}
+.comment-respond textarea{
+    height: 200px;
+    resize: none;
+}
+.comment-respond input[type='submit']{
+    background-color:  #7C97B0 ;
+    color: #1e4ca8;
+    font-family: inherit;
+    padding: 7px;
+    border-radius: 5px;
+    border: 0;
+}
+.comment-respond .comment-reply-title{
+    font-weight: bold;
+    color: #1e4ca8;
+    text-align: center;
+    background-color: #7C97B0;
+    height: 50px;
+    width: auto;
+    border-radius: 5px;
+    padding: 10px;
+}
+.comment-respond .comment-reply-title-form{
+    background-color: black;
+    padding:15px ;
+}
+.comment-respond .logged-in-as{
+    padding: 15px;
+}
+.comments-list > .comment{/* level 1 selector in comments */
+    background-color: #B7CAED;
+    margin: auto;
+    padding: auto;
+}
+.comments-list > .comment > .children{/* level 2 selector in comments */
+    background-color:#a7b6d3 ;
+    margin: auto;
+    padding: auto;
+
+}
+.comments-list > .comment > .children > .comment .comment{/* level 3 selector in comments */
+    background-color: #7C97B0;
+    margin: auto;
+    padding: auto;
+}
+.author-info{
+    border: 2px solid #454879;
+    border-radius: 5px;
+}
+.posts-count{
+    color: rgb(11, 11, 53);
+}
+
+.author-info h4 {
+    font-weight: bold;
+    font-size: revert;
+    padding: 10px;
+    color: #454879;
+}
+.author-info p{
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #454879;
+    font-style: oblique;
+    white-space: unset;
+    font-weight: 400;
+}
+/*author-page*/
+.author-info h4 .nick-name{ color: #3d7bee;}
+.author-page{
+
+}
+.author-page .author-main-info{
+    background-color: rgb(104, 104, 175);
+    padding: 20px;
+    white-space: normal;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #454879;
+    border-radius: 2px;
+    
+}
+
+.author-page .profile-header{}
+.author-page .info-style{
+    color: rgb(4, 23, 39);
+    padding: 0px;
+    left: -120px;
+    top: -2px;
+    margin: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.author-page .lead{
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: rgb(4, 23, 39);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.home-page .text-center {
+    color: firebrick;
+}
+.f{
+    position: absolute;
+}
+/*for copyright*/
+.tcenter {
+    z-index: 0;  
+    position:relative;
+    text-align: center;
+    color: lightblue;
+    font-style: oblique;
+    font-weight: bolder;
+    margin: 10px;
+    margin-left: 58px;
+    background-color: darkslategrey;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    bottom: 5px;
+    display: none;
+
+ 
+}
+
+.how-to-be-healthy-category .post-title{
+
+}
+.author-page .author-stats .stats{
+    color: rgb(5, 53, 53);
+   
+    text-align: center;
+    margin: 10px;
+    padding: 10px;  
+}
+.author-page .row .author-stats{
+    left: 0;
+    padding: 6px;
+    width: 254px;
+    margin: 42px;
+    margin-block-end: -8px;
+    margin-bottom: -3px;
+    margin-left: -375px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.author-page .row .author-stats .stats span{
+    display: block;
+    
+}
+.main-sidebar {
+    color: darkviolet;
+    background-color: #343a40;
+    right: 0;
+    left: 0px;
+}
+.main-sidebar .widget{
+    color: #0065b5;
+    padding: 2px;
+    margin: 15px;
+
+}
+.main-sidebar .widget-title{
+    color: #115a96;
+    padding: 5px;
+    margin: 4px;
+    font-weight: 600;
+}
+.main-sidebar .widget-content{
+    color: #c22222;
+    padding: 12px;
+    margin: 5px;
+    background-color: antiquewhite;
+    font-weight: bold;
+}
+.gh {
+    /* text-align: center!important; */
+    list-style: none;
+}
